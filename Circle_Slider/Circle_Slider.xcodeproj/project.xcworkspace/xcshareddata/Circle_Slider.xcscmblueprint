@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "762B0B3C3994C56DA228AAAD7248C82B4D63F314",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "762B0B3C3994C56DA228AAAD7248C82B4D63F314" : 9223372036854775807,
+    "79C7DE847E70568337F1B23FAC6DE76FDC611B0C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F8178F5E-DC64-4C86-830B-673621BC4029",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "762B0B3C3994C56DA228AAAD7248C82B4D63F314" : "CircleSlider\/",
+    "79C7DE847E70568337F1B23FAC6DE76FDC611B0C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Circle_Slider",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Circle_Slider\/Circle_Slider.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pxhmeiyangyang\/iOS_CircleSlider_swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "762B0B3C3994C56DA228AAAD7248C82B4D63F314"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pxhmeiyangyang\/iOS_swift_base.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "79C7DE847E70568337F1B23FAC6DE76FDC611B0C"
+    }
+  ]
+}
