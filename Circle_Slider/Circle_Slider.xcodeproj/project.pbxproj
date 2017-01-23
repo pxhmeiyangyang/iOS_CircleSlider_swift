@@ -505,6 +505,7 @@
 				F12D14EE1E30C5B00068C75B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F12D14EF1E30C5B00068C75B /* Build configuration list for PBXNativeTarget "Circle_SliderTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +514,7 @@
 				F12D14F11E30C5B00068C75B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F12D14F21E30C5B00068C75B /* Build configuration list for PBXNativeTarget "Circle_SliderUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +523,7 @@
 				F12D14F41E30C5B00068C75B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
