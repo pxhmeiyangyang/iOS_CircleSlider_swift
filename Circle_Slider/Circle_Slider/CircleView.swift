@@ -173,6 +173,7 @@ class CircleView: UIView/*,UIGestureRecognizerState*/{
         
         //pan gesture detects circle dragging
         panGesture = UIPanGestureRecognizer.init(target: self, action: #selector(handlePan))
+        self.addGestureRecognizer(panGesture)
     }
 
     override func willMove(toSuperview newSuperview: UIView?) {
@@ -221,6 +222,7 @@ class CircleView: UIView/*,UIGestureRecognizerState*/{
     }
     //MARK: - pragma mark detect pan and determine angle of pan location vs. center of circular revolution
     func handlePan(_ sender : UIPanGestureRecognizer){
+        print("=========handlePan")
         let translation : CGPoint = sender.location(in: self)
         let x_displace : CGFloat = translation.x - self.trueCenter.x
         let y_displace : CGFloat = -1.0 * (translation.y - self.trueCenter.y)
