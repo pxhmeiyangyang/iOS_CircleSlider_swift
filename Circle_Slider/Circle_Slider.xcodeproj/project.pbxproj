@@ -50,6 +50,8 @@
 		F12D14E71E30C5B00068C75B /* Circle_SliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle_SliderUITests.swift; sourceTree = "<group>"; };
 		F12D14E91E30C5B00068C75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1E6C49F1E37035600C34B90 /* CircleSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleSlider.swift; sourceTree = "<group>"; };
+		F1E6C4A11E37039200C34B90 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		F1E6C4A41E3704A000C34B90 /* Circle_Slider_Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle_Slider_Bridge.h; sourceTree = "<group>"; };
 		F1EE87621E35DFD9009D992B /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 		F12D14BB1E30C5B00068C75B = {
 			isa = PBXGroup;
 			children = (
+				F1E6C4A41E3704A000C34B90 /* Circle_Slider_Bridge.h */,
 				F12D14C61E30C5B00068C75B /* Circle_Slider */,
 				F12D14DB1E30C5B00068C75B /* Circle_SliderTests */,
 				F12D14E61E30C5B00068C75B /* Circle_SliderUITests */,
@@ -109,6 +112,7 @@
 				F12D14D31E30C5B00068C75B /* Info.plist */,
 				F1EE87621E35DFD9009D992B /* CircleView.swift */,
 				F1E6C49F1E37035600C34B90 /* CircleSlider.swift */,
+				F1E6C4A11E37039200C34B90 /* Define.h */,
 			);
 			path = Circle_Slider;
 			sourceTree = "<group>";
@@ -424,6 +428,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yunzhisheng.Circle-Slider";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Circle_Slider_Bridge.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -436,6 +441,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yunzhisheng.Circle-Slider";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Circle_Slider_Bridge.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
