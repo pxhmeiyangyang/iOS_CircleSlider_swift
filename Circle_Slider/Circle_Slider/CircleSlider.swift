@@ -63,7 +63,7 @@ class CircleSlider: UIControl {
         context?.drawPath(using: CGPathDrawingMode.stroke)
         
         //2、绘制进度
-        context?.addArc(center: center, radius: CGFloat(self.radius), startAngle: 0, endAngle: funcToRad(CGFloat(self.angle!)), clockwise: false)
+        context?.addArc(center: viewCenter, radius: CGFloat(self.radius), startAngle: 0, endAngle: funcToRad(CGFloat(self.angle!)), clockwise: false)
         UIColor.green.setStroke()
         context?.setLineWidth(CGFloat(self.lineWidth))
         context?.setLineCap(CGLineCap.round)
