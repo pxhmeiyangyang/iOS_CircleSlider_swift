@@ -216,10 +216,10 @@ class CircleView: UIView/*,UIGestureRecognizerState*/{
         }
         CATransaction.commit()
     }
-    func createArcPathWithAngle(_ angle : Double,_ atPoint : CGPoint,_ radius : Float)->UIBezierPath{
-        let endAngle : Float = Float((Int(angle) + 270 + 1) % 360)
-        return UIBezierPath.init(arcCenter: atPoint, radius: CGFloat(radius), startAngle: CGFloat(DEGREES_TO_RADIANS(degrees: 270)), endAngle: CGFloat(DEGREES_TO_RADIANS(degrees: Double(endAngle))), clockwise: true)
-    }
+//    func createArcPathWithAngle(_ angle : Double,_ atPoint : CGPoint,_ radius : Float)->UIBezierPath{
+//        let endAngle : Float = Float((Int(angle) + 270 + 1) % 360)
+//        return UIBezierPath.init(arcCenter: atPoint, radius: CGFloat(radius), startAngle: CGFloat(DEGREES_TO_RADIANS(degrees: 270)), endAngle: CGFloat(DEGREES_TO_RADIANS(degrees: Double(endAngle))), clockwise: true)
+//    }
     //MARK: - pragma mark detect pan and determine angle of pan location vs. center of circular revolution
     func handlePan(_ sender : UIPanGestureRecognizer){
         print("=========handlePan")

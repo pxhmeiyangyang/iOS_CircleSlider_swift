@@ -14,6 +14,7 @@
 		F12D14D21E30C5B00068C75B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12D14D01E30C5B00068C75B /* LaunchScreen.storyboard */; };
 		F12D14DD1E30C5B00068C75B /* Circle_SliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D14DC1E30C5B00068C75B /* Circle_SliderTests.swift */; };
 		F12D14E81E30C5B00068C75B /* Circle_SliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D14E71E30C5B00068C75B /* Circle_SliderUITests.swift */; };
+		F1E6C4A01E37035600C34B90 /* CircleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E6C49F1E37035600C34B90 /* CircleSlider.swift */; };
 		F1EE87631E35DFD9009D992B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE87621E35DFD9009D992B /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		F12D14E31E30C5B00068C75B /* Circle_SliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Circle_SliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12D14E71E30C5B00068C75B /* Circle_SliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle_SliderUITests.swift; sourceTree = "<group>"; };
 		F12D14E91E30C5B00068C75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E6C49F1E37035600C34B90 /* CircleSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleSlider.swift; sourceTree = "<group>"; };
 		F1EE87621E35DFD9009D992B /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +108,7 @@
 				F12D14D01E30C5B00068C75B /* LaunchScreen.storyboard */,
 				F12D14D31E30C5B00068C75B /* Info.plist */,
 				F1EE87621E35DFD9009D992B /* CircleView.swift */,
+				F1E6C49F1E37035600C34B90 /* CircleSlider.swift */,
 			);
 			path = Circle_Slider;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				F1EE87631E35DFD9009D992B /* CircleView.swift in Sources */,
 				F12D14CA1E30C5B00068C75B /* ViewController.swift in Sources */,
+				F1E6C4A01E37035600C34B90 /* CircleSlider.swift in Sources */,
 				F12D14C81E30C5B00068C75B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
