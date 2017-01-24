@@ -55,7 +55,6 @@ class CircleSlider: UIControl {
         super.draw(rect)
         let context = UIGraphicsGetCurrentContext()
         
-//        let center : CGPoint = CGPoint.init(x: self.frame.width * 0.5, y: self.frame.height * 0.5)
         //1、绘制灰色的背景
         context?.addArc(center: viewCenter, radius: CGFloat(self.radius), startAngle: 0, endAngle: CGFloat(M_PI * 2.0), clockwise: false)
         UIColor.gray.setStroke()
